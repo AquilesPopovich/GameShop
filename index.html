@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/65a00fcc77.js" crossorigin="anonymous"></script>
+    <title>GameShop-Inicio</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="headerIndex">
+        <nav class="nav">
+        
+            <div class="logo">
+                <i class="fa-solid fa-computer">Game<span>Shop</span></i>
+                
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="menu">
+                <li class="usuario-logeado" id="usuarioLogeado"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./subhtml/productos.html">Shop</a></li>
+                <li><a href="#contacto">Contact</a></li>
+                
+                
+            </ul>
+            
+        
+        </nav>
+        <div class="bannerText">
+            <h2 class="h2hero">The best prices</h2>
+            <h1>The best shop <span>Gamer</span></h1>
+            <div>
+                <button class="boton1"><a href="./subhtml/login.html">Registarse</a></button>
+                <button class="boton2"><a href="./subhtml/login.html">Iniciar Sesion</a></button>
+            </div>
+        </div>
+    </header>
+    <section id="somosTienda">
+        <div class="container">
+        <div class="imgContainer"></div>
+        <div class="texto">
+            <h2>We are <span>GameShop!</span></h2>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error libero natus amet aut rerum. Delectus suscipit labore alias fugiat consectetur, exercitationem laborum ut natus, nostrum officia quibusdam ad sunt.</p>
+         </div>
+        </div>
+    </section>
+    <section id="nuestroCatalogo">
+        <div class="container">
+            <h2>Nuesto catalogo!</h2>
+        <div class="catalogo">
+        <div class="card">
+            <h3>Teclados</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita aperiam facilis illo quidem consectetur repudiandae cupiditate. Aliquid, vel culpa, temporibus non.</p>
+            <button class="botoncito"><a href="./subhtml/productos.html">VER TIENDA</a></button>
+        </div>
+        <div class="card">
+            <h3>Auriculares</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita aperiam facilis illo quidem consectetur repudiandae cupiditate. Aliquid, vel culpa, temporibus non.</p>
+            <button class="botoncito"><a href="./subhtml/productos.html">VER TIENDA</a></button>
+        </div>
+        <div class="card">
+            <h3>Laptops</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita aperiam facilis illo quidem consectetur repudiandae cupiditate. Aliquid, vel culpa, temporibus non.</p>
+            <button class="botoncito"><a href="./subhtml/productos.html">VER TIENDA</a></button>
+        </div>
+        
+    </div>
+    </div>
+    </section>
+    <section id="caracteristicas">
+        <div class="container">
+        <div class="lista">
+        <ul>
+            <li>✅ Mejor calidad/precio</li>
+            <li>✅ Envios rapidos</li>
+            <li>✅ Compra 100% segura</li>
+        </ul>
+    </div>
+        <div class="containerImg"></div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="container">
+            <h3 class="contact">Our <span>Local!</span></h3>
+            <div class="contenido">
+                <div class="contactForm">
+                    <iframe class="mapa-tienda" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26285.274217932598!2d-58.49225048916014!3d-34.562181299999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c6cc07643b%3A0x7efd41967691ccf1!2sStart%20Belgrano!5e0!3m2!1ses-419!2sar!4v1684251562792!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contactInfo">
+                    <h4>More Info</h4>
+                    <ul>
+                        <li><i class="fa-sharp fa-solid fa-location-dot"></i><a href="">Baker Stret</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="">1234-5678</a> </li>
+                        <li><i class="fas fa-envelope-open-text"></i> <a href="">popovichaquiles@gmail.com</a> </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident expedita eligendi numquam odio quis deserunt sapiente quidem corrupti voluptate nam?</p>
+                    <p>GameShop</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comentarios">
+        <div class="container-comentarios">
+            <h4>Opiniones de usuarios!</h4>
+            <div id="contenidoComentarios" class="contenidoComentarios">
+
+            </div>
+        </div>
+
+    </section>
+   
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <script src="./js/comentarios.js"></script>
+    <script src="./js/funcionesDatos.js"></script>
+    <script src="./js/desplazador.js"></script>
+</body>
+</html>

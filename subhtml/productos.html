@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/65a00fcc77.js" crossorigin="anonymous"></script>
+    <title>GameShop-Producto</title>
+    <link rel="stylesheet" href="../style/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="nav">
+        
+            <div class="logo">
+                <i class="fa-solid fa-computer">Game<span>Shop</span></i>
+                
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-solid fa-bars"></i>
+                
+            </label>
+            <ul class="menu">
+                
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="productos.html">Shop</a></li>
+                <li><a href="../index.html">Contact</a></li>
+                <li id="verCarrito" class="ver-carrito">🛒 <span id="cantidadCarrito" class="cantidad-carrito"></span> </li>     
+            </ul>
+            
+        </nav>
+
+    </header>
+    <section id="bannerTienda" class="banner-tienda">
+        <div class="containerBanner">
+            <div class="imagenBannerTienda"></div>
+            <div class="texto">
+                
+
+                <form id="search-form" action="" method="get" class="search-bar">
+                    <input id="buscador" type="text" placeholder="search your products" name="q">
+                    <button type="submit"><img src="../media/search.png" alt=""></button>
+                  </form>
+            </div>
+        </div>
+    </section>
+    <section id="contenidoTienda" class="contenido-tienda">
+
+    </section>
+
+    <div id="containerModal" class="container-modal"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <script src="../js/desplazador.js"></script>
+    <script src="../js/funcionesDatos.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/carrito.js"></script>
+    
+</body>
+
+</html>
